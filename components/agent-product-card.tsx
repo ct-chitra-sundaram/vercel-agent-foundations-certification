@@ -5,6 +5,7 @@ import Link from "next/link";
 import { formatPrice } from "@/lib/format";
 import type { ProductDetailsToolInvocation } from "@/lib/agent";
 
+/* Need to edit this */
 interface AgentProductCardProps {
   invocation: ProductDetailsToolInvocation;
 }
